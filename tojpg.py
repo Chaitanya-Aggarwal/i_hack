@@ -69,3 +69,6 @@ if __name__=="__main__":
             jpegtoJpg(i)
         elif extension=="jpg":
             jpgtoJpg(i)
+        else:
+            raise Exception("Invalid extension format of the type " + extension)
+            

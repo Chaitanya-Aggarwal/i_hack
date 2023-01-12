@@ -14,4 +14,4 @@ docx ( the older .doc version was dropped from MS Word 2007, it is highly unlike
 pdf
 jpeg
 jpg
-png
+pngdp
