@@ -6,6 +6,10 @@ PIL ( pip install Pillow )
 pdf2image ( pip install pdf2image )
 docxtopdf ( pip install docxtopdf )
 subprocess ( builtin for versions above python2.7 )
+opencv (pip install opencv )
+scipy ( pip install scipy )
+imutils ( pip install imutils )
+
 
 Input Files
 Make sure that the name without the extension is unique. ( person.docx and person.jpg should not be present together )
@@ -14,4 +18,12 @@ docx ( the older .doc version was dropped from MS Word 2007, it is highly unlike
 pdf
 jpeg
 jpg
-pngdp
+png
+
+Assumptions:
+It is reasonable to assume that, on a given page multiple id proofs won't be present.
+For example, pan card and adhar card both won't be present on the same pdf page, although aadhar front and back might be
+on the same page. This assumption is validated by talking to various xerox operators.
+
+
+

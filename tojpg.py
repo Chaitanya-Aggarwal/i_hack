@@ -71,4 +71,3 @@ if __name__=="__main__":
             jpgtoJpg(i)
         else:
             raise Exception("Invalid extension format of the type " + extension)
-            
