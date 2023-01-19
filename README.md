@@ -9,6 +9,7 @@ subprocess ( builtin for versions above python2.7 )
 opencv (pip install opencv )
 scipy ( pip install scipy )
 imutils ( pip install imutils )
+dlib ( pip install dlib )
 
 
 Input Files
