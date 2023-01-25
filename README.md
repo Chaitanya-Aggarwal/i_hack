@@ -1,5 +1,10 @@
+## Important
+This repository is still under-development as due to academic commitments, I was unable to work on it last week. The major challenge of this model remains the lack of data due to privacy constrains. Therefore transfer learning model has been used. I've achieved correct classification for about 25% data among 8 sets. But while training the data, there is not much improvement after 2 epochs. This is clearly because the data of almost 500 images is insufficient for training 1000 variables. I'm currently working on aritifical data augmentation to create more test data to improve my model.
+
+Also after a satisfactory level of accuracy has been rechieved, I plan to incorporate openCV, and OCR into the model to make it even better.
+
 This repository contains my attempt for I_Hack by E-Cell IIT Bombay.
-I'm planning to use CV along with classical image processing for the task
+I'm planning to use CV along with classical image processing for the task.
 
 Dependencies
 PIL ( pip install Pillow )
