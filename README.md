@@ -3,6 +3,7 @@ This repository is still under-development as due to academic commitments, I was
 
 Also after a satisfactory level of accuracy has been rechieved, I plan to incorporate openCV, and OCR into the model to make it even better.
 
+## Readme
 This repository contains my attempt for I_Hack by E-Cell IIT Bombay.
 I'm planning to use CV along with classical image processing for the task.
 
