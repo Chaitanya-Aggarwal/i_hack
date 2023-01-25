@@ -5,8 +5,8 @@ import os
 import pdf2image
 import subprocess
 
-INPUT_PATH = "InputData/"
-OUTPUT_PATH = "ImageData/"
+INPUT_PATH = "Data/forms/"
+OUTPUT_PATH = "ModelData/train/"
 
 def pdftoJpg(inputName):
     # load the pdf file

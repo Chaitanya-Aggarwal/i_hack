@@ -27,4 +27,8 @@ For example, pan card and adhar card both won't be present on the same pdf page,
 on the same page. This assumption is validated by talking to various xerox operators.
 
 
-
+Approach 1
+            Has Photo   Regex_With_AdharNumber or Regex_with_Aadhar  Regex_with_UniqueIdentificationAuthorityofIndia 
+AadharFront 1           1                         Depends            Depends         
+AadharBack  0           1                         Depends            Depends
+AadharBoth  1           1                         Depends            Depends

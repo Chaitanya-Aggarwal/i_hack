@@ -4,7 +4,7 @@ import dlib
 import time
 import os
 
-INPUT_PATH = "ImageData/"
+INPUT_PATH = "ImageDatas/"
 OUTPUT_PHOTO_PATH = "PhotoGraphData/"
 OUTPUT_BLANK_PATH = "DocumentData/"
 WEIGHTS = "./mmod_human_face_detector.dat"
